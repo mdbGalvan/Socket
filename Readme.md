@@ -2,7 +2,7 @@
 >**Autora:**         *María D. Batista Galván*  
 >**Fecha:**          *Lunes 4 de Marzo de 2013*  
 >**Asignatura:**     *Redes y Sistemas Distribuidos*  
->**Cuestionario:**  **Actividad Adicional: Socket*  
+>**Cuestionario:**   *Actividad Adicional: Socket*  
 ***
 
 #Intrucciones
