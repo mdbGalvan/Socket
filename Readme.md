@@ -5,17 +5,6 @@
 >**Cuestionario:**   *Actividad Adicional: Socket*  
 ***
 
-#Intrucciones
-
->Para poder utilizarlo sólo hay que tener instalado el apache, y en mi caso utilicé como host = 'localhost' y como puerto '8000', por eso, todas las opciones por defecto se refieren a estos dos parámetros. Y ruby.
-Y para ejecutar el programa realizado, se pueden consultar las opciones posibles:
->`C:\> rake -T`
->Pero una posible opción sería:
-
->* Para el servidor: rake serverTCP2[port], que en mi caso sería: rake serverTCP2[8000]
->* Para el client: rake clientTCP2[hostname, port], que en mi caso sería: rake clientTCP2['localhost', 8000]
-Aunque existen más opciones, incluso si quieren realizar un socket tipo UDP.
-
 #Definición: Socket
 
 >Un **socket** no es más que un **canal de comunicación** entre dos programas que corren sobre ordenadores distintos o incluso en el mismo ordenador. 
@@ -34,3 +23,15 @@ puede transmitir datos en cualquier momento, independientemente de que el otro
 programa esté *escuchando* o no. Es el llamado protocolo **UDP**, y garantiza que los datos 
 que lleguen son correctos, pero no garantiza que lleguen todos. Se utiliza cuando es muy 
 importante que el programa no se quede bloqueado y no importa que se pierdan datos. 
+
+#Funcionamiento
+
+>Para poder utilizarlo sólo hay que tener instalado un servidor, por ejemplo, el servidor HTTP apache, y en mi caso utilicé como host = 'localhost' y como puerto '8000', por eso, todas las opciones por defecto se refieren a estos dos parámetros. Y ruby.
+Y para ejecutar el programa realizado, se pueden consultar las opciones posibles:
+>`C:\> rake -T`
+>Pero una posible opción sería:
+
+>* Para el servidor: rake serverTCP2[port], que en mi caso sería: rake serverTCP2[8000]
+>* Para el client: rake clientTCP2[hostname, port], que en mi caso sería: rake clientTCP2['localhost', 8000]
+
+>Aunque existen más opciones, incluso si quieren realizar un socket tipo UDP.
